@@ -62,7 +62,9 @@ body {
     margin: auto;
     margin-bottom: 0em;
     margin-top: 0em;
-    width: 650px; 
+    width: auto; 
+    min-width: 300px;
+    max-width: 750px;
 }
 
 .tmdoc-body {
@@ -713,6 +715,10 @@ code {
 .caption {
     font-size: 90%;
 }
+
+span.blockspam {
+    display: none;
+  }
 /******************************************************************************
 * CV specific
 ******************************************************************************/
